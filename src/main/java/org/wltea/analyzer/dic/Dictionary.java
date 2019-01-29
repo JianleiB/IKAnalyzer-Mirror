@@ -248,7 +248,7 @@ public class Dictionary {
 			InputStream is = null;
 			for (String extDictName : extDictFiles) {
 				// 读取扩展词典文件
-				System.out.println("加载扩展词典：" + extDictName);
+				//System.out.println("加载扩展词典：" + extDictName);
 				is = this.getClass().getClassLoader()
 						.getResourceAsStream(extDictName);
 				// 如果找不到扩展的字典，则忽略
@@ -299,7 +299,7 @@ public class Dictionary {
 		if (extStopWordDictFiles != null) {
 			InputStream is = null;
 			for (String extStopWordDictName : extStopWordDictFiles) {
-				System.out.println("加载扩展停止词典：" + extStopWordDictName);
+				//System.out.println("加载扩展停止词典：" + extStopWordDictName);
 				// 读取扩展词典文件
 				is = this.getClass().getClassLoader()
 						.getResourceAsStream(extStopWordDictName);
