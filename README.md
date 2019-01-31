@@ -6,7 +6,7 @@ this repository is from https://github.com/sea-boat/IKAnalyzer-Mirror.git , and 
 
 # How to use
 
-* git clone https://github.com/JianleiB/IKAnalyzer-Mirror.git
+* git clone https://github.com/alonelyleaf/IKAnalyzer-Mirror.git
 
 * mvn install
 
